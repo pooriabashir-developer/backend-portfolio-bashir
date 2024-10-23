@@ -1,0 +1,133 @@
+:root
+{
+    --bg-body:#FFFFFF;
+    --white: #FFFFFF;
+    --bnfsh: #A53DFF;
+    --lightgray:#87909D;
+    --navyblue:#132238;
+    --whitef:#F0F1F3;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+*,*::after,*::before
+{
+    -webkit-box-sizing: inherit;
+
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-body);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+    background-color: #fff; /* رنگ پس‌زمینه */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* باکس شادو */
+    margin: 0; /* عدم استفاده از margin */
+    position: relative; /* برای تنظیم z-index */
+    z-index: 10; /* افزایش z-index */
+}
+
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+
+.nav-logo{
+    width: 17rem;
+    margin: -15px;
+}
+
+.nav_wrapper{
+    display: flex;
+}
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu-list-item {
+    margin: 0 15px; /* فاصله بین آیتم‌ها */
+}
+
+
+.menu-list-item :hover{
+    background: rgb(96, 12, 175);
+}
+.menu-list-item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+.img-1{
+    margin-left: 63%;
+    width: 44%;
+    margin-bottom: 94px;
+    margin-top: 50px;
+}
+.jumbotron{
+    margin-left: -111px;
+    width: 70%;
+    padding: 75px;
+    margin-top: -662px;
+    background: white;
+
+}
+.text-1{
+    font-size: 68px;
+}
+.tp1{
+    font-size: 17px;
+
+}
+.btn{
+    width: 103px;
+    height: 38px;
+    margin-left: -36px;
+    margin-top: -172px;
+    font-size: 14px;
+    background: #a43dff;
+}
+.card{
+    width: 167px;
+    margin: 6px 44px 0px -40px;
+}
