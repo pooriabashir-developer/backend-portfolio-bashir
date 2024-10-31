@@ -26,6 +26,7 @@ class RegisterRequest extends FormRequest
             'email'=>['required','email','string'],
             'password'=>['required','string', 'min:8'],
             'confirm_password'=>['required_with:password','same:password', 'min:8', 'alpha_dash'],
+            'photo' => ['nullable', 'image', 'mimes:jpeg,png,jpg,gif', 'max:2048'],
         ];
     }
 }
